@@ -2,20 +2,22 @@
 
 
 Some [getting started resources](https://phaser.io/tutorials/getting-started-phaser3)
+
 *^ I think this can be skipped ^*
 
 ## Run this program
 
-1. Install nodejs from here [download node](https://nodejs.org/en/download/)
-
-2. cd into this repo's directory and run the following commands
+1. Install [git](https://github.com/git-for-windows/git/releases/download/v2.37.1.windows.1/Git-2.37.1-64-bit.exe)
+2. Install nodejs from here [install node](https://nodejs.org/dist/v16.16.0/node-v16.16.0-x64.msi)
+3. run `git clone https://github.com/skamensky/losha-learn-phaser.git`
+4. Run the following commands
     ```
+    cd losha-learn-phaser
     npm install --global yarn
-    yarn init phaserExample --yes
-    yarn add http-server
+    yarn install
     yarn run http-server site
     ```
-3. Open the url that's printed to the console (for me it was `http://127.0.0.1:8080`)
+4. Open the url that's printed to the console (for me it was `http://127.0.0.1:8080`)
 
 
 ## Development
